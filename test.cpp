@@ -23,6 +23,7 @@ render::RenderTile getRenderTile(Terrain t) {
         toReturn.fg = render::Colors::WHITE;
     else
         toReturn.fg = render::Colors::BLACK;
+    return toReturn;
 }
 
 int main() {
