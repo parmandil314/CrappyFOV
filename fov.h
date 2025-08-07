@@ -23,11 +23,7 @@ namespace fov {
                 }   
             }
 
-            // Gets a tile from the map
-            auto getTile = [&visibilityMap](int x, int y) {
-                return visibilityMap[y][x];                
-            };
-
+            // Gets the transparency of a tile at (x, y)
             auto getTransparency = [&transparency](int x, int y) {
                 return transparency[y][x];                
             };
